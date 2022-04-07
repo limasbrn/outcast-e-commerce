@@ -1,7 +1,6 @@
 import React from 'react' ;
 import { Link } from 'react-router-dom';
 import BlackBtn from '../components/btn-black';
-import GrayBtn from '../components/btn-gray';
 import InputEmail from '../components/email.input';
 import InputPassLogin from '../components/password-login';
 

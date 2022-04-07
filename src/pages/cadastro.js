@@ -1,5 +1,4 @@
 import React from 'react' ;
-import { Link } from 'react-router-dom';
 import PageTitle from '../components/page-title';
 import HomeLink from '../components/home-link'
 import BigInputCad from '../components/big-input-cad'
@@ -8,6 +7,7 @@ import BlackBtn from '../components/btn-black';
 import SelectType from '../components/select-type-home';
 import InputPass from '../components/password.input';
 import InputCity from '../components/input-city';
+
 
 
 const CadastroPage=  ( ) => {
@@ -34,7 +34,7 @@ const CadastroPage=  ( ) => {
                             <BigInputCad h3='E-mail'/> 
                             <InputPass h3='Senha'/>
                             <InputPass h3='Confirme sua senha'/>
-                            
+                           
                             <BlackBtn name='CONFIRMAR CADASTRO'/>
                         </div>
                     </div>
