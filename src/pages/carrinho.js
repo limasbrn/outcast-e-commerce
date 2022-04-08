@@ -13,7 +13,7 @@ function CarrinhoPage() {
                <div className="flex w-full h-[300px] justify-center">
                    <div className="flex w-4/5 h-full bg-red-400 justify-center">
                        <div className="flex flex-col justify-between items-center w-2/6 h-full bg-gray-200">
-                           <div className="flex w-5/6 h-[135px] bg-red-100">
+                           <div className="flex w-5/6 h-[135px] bg-gray-100 ronded-[5px]">
                                <div className="flex w-[120px] h-full justify-center items-center bg-red-200">
                                    Photo space
                                </div>
@@ -27,7 +27,7 @@ function CarrinhoPage() {
                                    <div className="flex font-semibold justify-end items-end w-[95%] h-[70px]">R$ 279,00</div>
                                </div>
                            </div>
-                           <div className="flex w-5/6 h-[135px] bg-red-200">
+                           <div className="flex w-5/6 h-[135px] bg-gray-100 ronded-[5px]">
                            <div className="flex w-[120px] h-full justify-center items-center bg-red-200">
                                    Photo space
                                </div>
@@ -44,8 +44,8 @@ function CarrinhoPage() {
                        </div>
                        <div className="flex w-2/6 h-full rounded-[5px] justify-center items-center bg-gray-100">
                            <div className="flex flex-col w-5/6 h-5/6 justify-center bg-red-300">
-                               <h1 className="font-semibold mb-[10px]">TOTAL:</h1>
-                               <h1 className="font-semibold mb-[15px]">R$ 535,00</h1>
+                               <h1 className="font-semibold mb-[10px] px-[10px]">TOTAL:</h1>
+                               <h1 className="font-semibold mb-[15px] px-[10px]">R$ 535,00</h1>
                                <span className="w-[80%] text-center self-center text-[#868686] text-[12px] mb-[15px]">Esta compra é elegível as regras de <strong>FRETE GRÁTIS</strong></span>
                                <div className="flex flex-col w-full h-auto items-center justify-around">
                                     <GrayBtn name="CONTINUAR COMPRANDO"/>
