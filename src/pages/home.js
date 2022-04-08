@@ -40,11 +40,14 @@ const Home =  ( ) => {
           <div className='flex w-[570px] h-[100px] text-white text-center tracking-[10px] mr-[-10px] pl-[10px] bg-black justify-center items-center absolute bottom-[-15px]'>COMPRE NA OUTCAST E GANHE 50% DE DESCONTO NA 3ª PEÇA</div>
         </div>
 
+        <div className='flex h-[35px] w-3/5 bg-gray-800 justify-end items-center mt-[30px]'>
+             <span className='flex text-sm text-[#868686]'>Saiba mais</span>
+          </div>
 
       </div>
 
        {/*Aqui a imagem do outcast banner*/}
-       <div className="flex m-auto w-[57%] h-auto bg-red-400"><img className="flex w-full h-auto" src={Banner}/></div>
+       <div className="flex m-auto w-[57%] h-auto bg-red-400 mt-[50px]"><img className="flex w-full h-auto" src={Banner}/></div>
 
     </section>
     

@@ -1,5 +1,8 @@
 import React from 'react' ;
 import { Link } from 'react-router-dom';
+import UserIcon from '../icones/user-icon.svg';
+import BagIcon from '../icones/bag-icon.svg';
+import HamIcon from '../icones/hamburguer-icon.svg';
 
 const Header =  ( ) => {
     return(
@@ -17,8 +20,9 @@ const Header =  ( ) => {
                
                 <div className='flex w-4/5'>
 
-                    <div className='flex w-1/12 bg-slate-300' >
+                    <div className='flex w-1/12 bg-slate-300 justify-center items-center' >
                         <div>
+                            <img className="" src={HamIcon}/>
                         </div>
                     </div>
                     
@@ -32,8 +36,8 @@ const Header =  ( ) => {
                     </div>
                    {/*aqui bloco para ícones sacola e user*/}
                     <div className='flex w-1/12 bg-slate-300 justify-end items-center' >
-                        <Link to="/login"><div className="flex w-[20px] h-[20px] mr-[20px] border border-black"></div></Link>
-                        <Link to="/carrinho"><div className="flex w-[20px] h-[20px] border border-black"></div></Link>
+                        <Link to="/login"><img className="mr-[15px]" src={UserIcon}/></Link>
+                        <Link to="/carrinho"><img className="mr-[15px]" src={BagIcon}/></Link>
                     </div>
 
                 </div>
