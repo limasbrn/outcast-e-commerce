@@ -5,7 +5,7 @@ function CheckboxCad(props) {
     return(
         <>
            <div>
-                <input type = "checkbox">{props.text}</input>
+                <input type = "checkbox" />{props.text}
             </ div>
         </>
     )

@@ -7,6 +7,7 @@ import BlackBtn from '../components/btn-black';
 import SelectType from '../components/select-type-home';
 import InputPass from '../components/password.input';
 import InputCity from '../components/input-city';
+import CheckboxCad from '../components/checkbox.js';
 
 
 
@@ -34,6 +35,7 @@ const CadastroPage=  ( ) => {
                             <BigInputCad h3='E-mail'/> 
                             <InputPass h3='Senha'/>
                             <InputPass h3='Confirme sua senha'/>
+                            <div className="flex font-normal items-center text-[12px] mt-[5px] mb-[15px]"><CheckboxCad text="Desejo receber notificações e novidades por e-mail"/></div>
                            
                             <div className="flex self-center">
                             <BlackBtn  name='CONFIRMAR CADASTRO'/>
