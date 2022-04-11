@@ -10,9 +10,9 @@ const Header =  ( ) => {
         <div className="flex w-full h-auto flex-col">
 
             <div className='flex flex-row justify-center items-center w-full h-9 bg-black text-white'>
-                <div className='flex w-4/5 justify-between'>
-                    <div className='flex w-2/4 bg-gray-800 justify-start text-sm text-white'>Seja do clube outcast e ganhe     <strong>    DESCONTO EXCLUSIVO</strong></div>
-                    <div className='flex w-2/4 bg-gray-800 justify-end text-sm text-white'>Em compras a partir de R$ 250,00 ganhe    <strong>  FRETE GRÁTIS</strong></div>
+                <div className='flex w-[80%] justify-between'>
+                    <div className='flex w-2/4  justify-start text-sm text-white'>Seja do clube outcast e ganhe     <strong> &nbsp; DESCONTO EXCLUSIVO</strong></div>
+                    <div className='flex w-2/4 justify-end text-sm text-white'>Em compras a partir de R$ 250,00 ganhe    <strong> &nbsp; FRETE GRÁTIS</strong></div>
                 </div>
             </div>
 
@@ -20,7 +20,7 @@ const Header =  ( ) => {
                
                 <div className='flex w-4/5'>
 
-                    <div className='flex w-1/12 justify-center items-center' >
+                    <div className='flex w-1/12 justify-left items-center' >
                         <div>
                             <img className="" src={HamIcon}/>
                         </div>
@@ -29,7 +29,7 @@ const Header =  ( ) => {
                     <div className='flex flex-row w-10/12 justify-center'>
                         <div className='flex flex-row w-2/5 justify-center items-center '>
                             <div className='flex flex-col items-center h-1/2 w-2/2 '>
-                                <p className='flex w-full justify-center h-1/2 font-semibold tracking-[20px] text-center mr-[-20px]'>OUTCAST</p>
+                                <p className='flex w-full justify-center h-1/2 font-semibold tracking-[20px]  text-[20px]text-center mr-[-20px]'>OUTCAST</p>
                                 <p className='flex w-full justify-center h-1/2 font-semibold tracking-[35px] text-center text-[#868686] mr-[-35px]'>STORE</p>
                             </div>
                         </div>
@@ -37,7 +37,7 @@ const Header =  ( ) => {
                    {/*aqui bloco para ícones sacola e user*/}
                     <div className='flex w-1/12 justify-end items-center' >
                         <Link to="/login"><img className="mr-[15px]" src={UserIcon}/></Link>
-                        <Link to="/carrinho"><img className="mr-[15px]" src={BagIcon}/></Link>
+                        <Link to="/carrinho"><img src={BagIcon}/></Link>
                     </div>
 
                 </div>
