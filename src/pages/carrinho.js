@@ -44,7 +44,7 @@ function CarrinhoPage() {
                                 </div>
                            </div>
                        </div>
-                       <div className="flex w-2/6 h-full rounded-[5px] justify-center items-center bg-gray-100">
+                       <div className="flex w-[280px] h-full rounded-[5px] justify-center items-center bg-gray-100">
                            <div className="flex flex-col w-5/6 h-5/6 justify-center">
                                <h1 className="font-semibold mb-[10px] px-[10px]">TOTAL:</h1>
                                <h1 className="font-semibold mb-[15px] px-[10px]">R$ 535,00</h1>

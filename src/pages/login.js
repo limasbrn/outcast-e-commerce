@@ -19,8 +19,8 @@ const LoginPage=  ( ) => {
                             <InputEmail/>
                             <InputPassLogin/>
                             <BlackBtn name="ENTRAR"/>
-                            <span className="text-sm text-black mb-[15px]">Não possui cadastro?<Link to="/cadastro"><strong>Cadastre-se</strong></Link></span>
-                            <span className="text-sm text-black mb-[15px]">Esqueceu sua senha?<strong>Recupere aqui</strong></span>
+                            <span className="text-sm text-black mb-[15px]">Não possui cadastro?<Link to="/cadastro"><strong>&nbsp; Cadastre-se</strong></Link></span>
+                            <span className="text-sm text-black mb-[15px]">Esqueceu sua senha?<strong>&nbsp; Recupere aqui</strong></span>
                             <span className="text-sm text-black mb-[15px]"><strong>ou</strong></span>
                             <button className="flex w-[280px] h-[35px] text-white font-semibold text-[14px] bg-[#868686] rounded-[5px] items-center justify-center"><img className="mr-[10px]
                             " src={GoogleIcon}/>Acesse com sua conta Google</button>
