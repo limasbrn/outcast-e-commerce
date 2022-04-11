@@ -10,7 +10,7 @@ const LoginPage=  ( ) => {
                 <div className='flex flex-col w-full h-full items-center items-center'>
                         <div className='flex justify-center w-full '>
                             <div className='flex w-4/5 bg-gray-800'>
-                                <span className='flex font-semibold text-sm text-[#868686] mb-[30px]'> <Link to="/">Home</Link></span><span className='flex font-normal text-sm text-[#868686]'> &gt;  Login</span>
+                                <span className='flex font-semibold text-sm text-[#868686] mt-[15px] mb-[30px]'> <Link to="/">Home</Link></span><span className='flex font-normal text-sm text-[#868686] mt-[15px] mb-[30px]'> &gt;  Login</span>
                             </div>
                         </div>
                         <div className="flex flex-col w-full h-full items-center items-center">
