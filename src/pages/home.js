@@ -1,10 +1,11 @@
 import React from 'react' ;
 import { Link } from 'react-router-dom';
-import Fotoprincipal from "../images/naeim-jafari-unsplash-fotoprincipal(1).jpg"; 
+import Fotoprincipal from "../images/hummingbird.jpg"; 
 import Destaque1 from "../images/Rectangle1.png";
 import Destaque2 from "../images/Rectangle2.png";
 import Destaque3 from "../images/Rectangle3.png";
 import Banner from "../images/outcast-photo.jpg";
+import ProducDisplay from "../components/products-display";
 
 const Home =  ( ) => {
    return(
@@ -24,9 +25,11 @@ const Home =  ( ) => {
 
            
           <div className='flex h-[35px] w-3/5 justify-end items-center'>
-             <span className='flex text-sm text-[#868686]'>Saiba mais</span>
+             <span className='flex text-sm text-[#868686]'>Confira &gt;&gt; </span>
           </div>
       </div>
+
+      <ProducDisplay/>
 
       <div className='flex flex-col w-full h-[580px] justify-center items-center'> 
         <div className='flex w-4/5 h-full flex-col items-center relative'>
