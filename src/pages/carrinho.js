@@ -13,7 +13,7 @@ function CarrinhoPage() {
                <HomeLink page='Sacola'/>
                <PageTitle h1='SACOLA'/> 
                <div className="flex w-full h-[300px] justify-center">
-                   <div className="flex w-4/5 h-[320px] justify-center  p-[15px] border-[1px] b-black">
+                   <div className="flex w-4/5 h-[320px] justify-center p-[15px] border-[1px] b-black">
                        <div className="flex flex-col justify-between items-center w-2/6 h-full">
                            <div className="flex w-5/6 h-[135px] bg-white ronded-[5px]">
                                 <div className="flex w-[120px] h-full justify-left items-center">

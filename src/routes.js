@@ -5,6 +5,7 @@ import LoginPage from './pages/login';
 import ProductPage from './pages/produtos';
 import CarrinhoPage from './pages/carrinho';
 import CadastroPage from './pages/cadastro';
+import DisplayPage from './pages/display';
 
 const MainRoutes = ( ) => {
          return(
@@ -28,6 +29,10 @@ const MainRoutes = ( ) => {
                  <Route 
                  path="/cadastro" 
                  element={<CadastroPage/>}
+                 />
+                 <Route 
+                 path="/display" 
+                 element={<DisplayPage/>}
                  />
              </Routes>  
                )
