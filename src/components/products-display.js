@@ -59,7 +59,7 @@ const ProducDisplay =  ( ) => {
                 </div>
                 
                 <div className="flex  justify-end w-[80%] h-[20%]">
-                <Link to="/display"> <h2 className="flex flex-col justify-center text-sm text-[#868686] mt-[30px]">ver mais&gt;&gt;</h2></Link>
+                <Link to="/display"><h2 className="flex flex-col justify-center text-sm text-[#868686] mt-[30px]">ver mais&gt;&gt;</h2></Link>
                 </div>
             </div>
         </>
