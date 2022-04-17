@@ -49,12 +49,12 @@ const Header =  ( ) => {
                 <div className="flex flex-row w-[80%] h-full">
                 <ul className="flex w-full text-[12px] items-center">
                         <li className="flex font-bold"><Link to="/display">NEW</Link></li>
-                        <li className="flex ml-[30px]"><Link to="/display">VESTIDOS</Link></li>
-                        <li className="flex ml-[30px]"><Link to="/display">BLAZERS</Link></li>
-                        <li className="flex ml-[30px]"><Link to="/display">MACAQUINHOS</Link></li>
-                        <li className="flex ml-[30px]"><Link to="/display">SAIAS</Link></li>
-                        <li className="flex ml-[30px]"><Link to="/display">CALÇAS</Link></li>
-                        <li className="flex ml-[30px] font-bold text-[#7c0101]"><Link to="/display">SALES</Link></li>
+                        <li className="flex ml-[30px] hover:font-bold"><Link to="/display">VESTIDOS</Link></li>
+                        <li className="flex ml-[30px] hover:font-bold"><Link to="/display">BLAZERS</Link></li>
+                        <li className="flex ml-[30px] hover:font-bold"><Link to="/display">MACAQUINHOS</Link></li>
+                        <li className="flex ml-[30px] hover:font-bold"><Link to="/display">SAIAS</Link></li>
+                        <li className="flex ml-[30px] hover:font-bold"><Link to="/display">CALÇAS</Link></li>
+                        <li className="flex ml-[30px] hover:font-bold font-bold text-[#7c0101]"><Link to="/display">SALES</Link></li>
                 </ul>
                 </div>
 

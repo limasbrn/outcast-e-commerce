@@ -1,13 +1,14 @@
 import React from 'react' ;
 import HeartIcon from '../icones/icons_heart.svg';
+import HeartIconTwo from '../icones/heart-black.svg'
 
 function ProductWrap(props) {
     const foto = props.foto;
     const nome = props.nome;
     const preco = props.preco; 
-    
+
     return(
-            <div className="flex flex-col w-[18%] h-full border  border-[1px] border-[#DADADA] rounded-[5px]">
+            <div className="flex flex-col w-[18%] h-full border  border-[1px] border-[#DADADA] rounded-[5px] hover:border-black">
                 <div className="flex justify-end p-[5px]">
                     <img className="w-[17px] h-auto" src={HeartIcon}/>
                 </div>
