@@ -47,15 +47,15 @@ const Header =  ( ) => {
             {/* Menu categorias */}
             <div className="flex h-[30px] w-full justify-center border border-[1px] border-[#C4C4C4]">
                 <div className="flex flex-row w-[80%] h-full">
-                <Link to="/display"><ul className="flex w-full text-[12px] items-center">
-                        <li className="flex font-bold">NEW</li>
-                        <li className="flex ml-[30px]">VESTIDOS</li>
-                        <li className="flex ml-[30px]">BLAZERS</li>
-                        <li className="flex ml-[30px]">MACAQUINHOS</li>
-                        <li className="flex ml-[30px]">SAIAS</li>
-                        <li className="flex ml-[30px]">CALÇAS</li>
-                        <li className="flex ml-[30px] font-bold text-[#7c0101]">SALES</li>
-                    </ul></Link>
+                <ul className="flex w-full text-[12px] items-center">
+                        <li className="flex font-bold"><Link to="/display">NEW</Link></li>
+                        <li className="flex ml-[30px]"><Link to="/display">VESTIDOS</Link></li>
+                        <li className="flex ml-[30px]"><Link to="/display">BLAZERS</Link></li>
+                        <li className="flex ml-[30px]"><Link to="/display">MACAQUINHOS</Link></li>
+                        <li className="flex ml-[30px]"><Link to="/display">SAIAS</Link></li>
+                        <li className="flex ml-[30px]"><Link to="/display">CALÇAS</Link></li>
+                        <li className="flex ml-[30px] font-bold text-[#7c0101]"><Link to="/display">SALES</Link></li>
+                </ul>
                 </div>
 
             </div>
