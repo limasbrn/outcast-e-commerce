@@ -16,7 +16,7 @@ const Header =  ( ) => {
                 </div>
             </div>
          {/* Menu white */}
-            <div className="flex w-full h-[90px] justify-center shadow-[#868686] shadow-[0_10px_10px_-15px_rgba(0,0,0,0.275)]">
+            <div className="flex w-full h-[90px] justify-center">
                
                 <div className='flex w-4/5'>
 

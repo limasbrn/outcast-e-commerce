@@ -17,19 +17,19 @@ const ProductDisplayPage=  ( ) => {
         <section>
                 <HomeLink page='Produtos'/>
                 <div className='flex flex-rol w-full h-[450px] justify-center items-center'>
-                   <div className='flex w-[80%] h-full bg-red-300 justify-between'>
+                   <div className='flex w-[80%] h-full justify-between'>
                        <div className='flex flex-col w-[17%] h-[70%] border border-[1px] border-[#DADADA] rounded-[5px] m-[15px]' >
-                           <ul>
-                               <li className='flex font-bold'>CATEGORIAS</li>
-                               <li className=''>Vestidos</li>
-                               <li className=''>Blazers</li>
-                               <li className=''>Macacões</li>
-                               <li className=''>Saias</li>
-                               <li className=''>Calças</li>
+                           <ul className='flex flex-col text-[11px] p-[15px]'>
+                               <li className='flex font-bold text-[12px]'>CATEGORIAS</li>
+                               <li className='mt-[5px]'>VESTIDOS</li>
+                               <li className=''>BLAZERS</li>
+                               <li className=''>MACACÕES</li>
+                               <li className=''>SAIAS</li>
+                               <li className=''>CALÇAS</li>
                            </ul>
-                           <ul>
-                               <li className='flex font-bold'>TAMANHO</li>
-                               <li className=''>PP</li>
+                           <ul className='flex flex-col text-[11px] pl-[15px] pr-[15px]'>
+                               <li className='flex font-bold text-[12px]'>TAMANHO</li>
+                               <li className='mt-[5px]'>PP</li>
                                <li className=''>P</li>
                                <li className=''>M</li>
                                <li className=''>G</li>
