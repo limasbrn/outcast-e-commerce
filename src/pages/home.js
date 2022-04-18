@@ -21,7 +21,7 @@ const Home =  ( ) => {
           </div>
 
             {/*div da imagem principal*/}
-          <div className='flex justify-center items-center  w-4/5 h-[420px] mt-[30px]'>
+          <div className='flex justify-center items-center  w-full h-auto md:w-4/5 md:h-[420px] mt-[30px]'>
             <div className="flex w-3/5 h-full justify-center "> <Link to="/produtos"><img className="flex h-full w-auto" src={Fotoprincipal}/></Link></div>
           </div>
 
@@ -33,10 +33,10 @@ const Home =  ( ) => {
 
       <ProducDisplay/>
 
-      <div className='flex flex-col w-full h-[300px] justify-center items-center mt-[30px]'> 
+      <div className='flex md:flex-col w-full h-[300px] justify-center items-center mt-[30px]'> 
           <div className='flex w-full h-[300px] justify-center'>
-             <img className="flex w-[40%] h-auto " src={AnunFrete}/>
-             <img className="flex w-[40%] h-auto " src={AnunSale}/>
+             <img className="flex w-[90%] md:w-[40%] h-auto " src={AnunFrete}/>
+             <img className="hidden md:flex md:w-[40%] h-auto " src={AnunSale}/>
           </div>
       </div>
 

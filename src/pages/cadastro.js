@@ -1,4 +1,4 @@
-import React from 'react' ;
+import React, { useState } from 'react';
 import PageTitle from '../components/page-title';
 import HomeLink from '../components/home-link'
 import BigInputCad from '../components/big-input-cad'
@@ -8,10 +8,18 @@ import SelectType from '../components/select-type-home';
 import InputPass from '../components/password.input';
 import InputCity from '../components/input-city';
 import CheckboxCad from '../components/checkbox.js';
+import ModalCad from '../components/modal-cad';
 
 
 
-const CadastroPage=  ( ) => {
+function CadastroPage( ){
+
+    const [isClose, setClose] = useState(false)
+
+    const handleCloseMod = () =>{
+        setClose((state) => !state)
+    }
+
     return (
         <section>
                 <HomeLink page='Cadastro'/>
@@ -38,11 +46,12 @@ const CadastroPage=  ( ) => {
                             <div className="flex font-normal items-center text-[12px] mt-[5px] mb-[15px]"><CheckboxCad text="Desejo receber notificações e novidades por e-mail"/></div>
                            
                             <div className="flex self-center">
-                            <BlackBtn  name='CONFIRMAR CADASTRO'/>
+                            <BlackBtn onClick={handleCloseMod} name='CONFIRMAR CADASTRO'/>
                             </div>
                         </div>
                     </div>
                 </div>
+                <ModalCad state={isClose}/>
         </section>
 
     

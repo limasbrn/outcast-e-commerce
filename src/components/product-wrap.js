@@ -1,16 +1,22 @@
-import React from 'react' ;
+import React, { useState } from 'react' ;
 import HeartIcon from '../icones/icons_heart.svg';
 import HeartIconTwo from '../icones/heart-black.svg'
 
 function ProductWrap(props) {
-    const foto = props.foto;
-    const nome = props.nome;
-    const preco = props.preco; 
+    const {foto, nome, preco} = props;
+
+    const [isFavorite, setIsFavorite] = useState(false)
+
+    const handleFavorite =  (event) => {
+        /* isFavorite ? setIsFavorite(false) : setIsFavorite(true) */
+
+        setIsFavorite((state) => !state)
+    }
 
     return(
             <div className="flex flex-col w-[18%] h-full border  border-[1px] border-[#DADADA] rounded-[5px] hover:border-black">
                 <div className="flex justify-end p-[5px]">
-                    <img className="w-[17px] h-auto" src={HeartIcon}/>
+                    <img id="heartIcon" className="w-[17px] h-auto cursor-pointer" src={isFavorite ? HeartIconTwo : HeartIcon} onClick={handleFavorite}/>
                 </div>
                 <img className="flex w-[70%] h-auto self-center" src={foto}/>
                 <span className="flex text-[13px] font-bold pl-[5px]">{nome}</span>

@@ -1,6 +1,6 @@
 import React from 'react' ;
-import HomeLink from '../components/home-link'
-import ProductDisplay from '../components/product-wrap'
+import HomeLink from '../components/home-link';
+import ProductDisplay from '../components/product-wrap';
 import Product1 from '../images/golden-dress-two.webp';
 import Product2 from '../images/wine-silky-dress-short.webp';
 import Product3 from '../images/jumpsuit-black.webp';
@@ -48,11 +48,11 @@ const ProductDisplayPage=  ( ) => {
                             </div>
 
                             <div className='flex flex-row w-full h-[47%] justify-around pb-[15px] bg-white'>
-                                <ProductDisplay foto={Product6} nome='MACACÃO MARGÔ' preco='R$ 675,00' />
-                                <ProductDisplay foto={Product7} nome='VESTIDO VERÔNICA' preco='R$ 317,00' />
-                                <ProductDisplay foto={Product8} nome='MACACÃO ANN' preco='R$ 469,00' />
-                                <ProductDisplay foto={Product9} nome='VESTIDO ELÍS' preco='R$ 615,00' />
-                                <ProductDisplay foto={Product10} nome='MACACÃO ELEONOR' preco='R$ 635,00' />
+                                <ProductDisplay foto= {Product6} nome='MACACÃO MARGÔ' preco='R$ 675,00' />
+                                <ProductDisplay foto= {Product7} nome='VESTIDO VERÔNICA' preco='R$ 317,00' />
+                                <ProductDisplay foto= {Product8} nome='MACACÃO ANN' preco='R$ 469,00' />
+                                <ProductDisplay foto= {Product9} nome='VESTIDO ELÍS' preco='R$ 615,00' />
+                                <ProductDisplay foto= {Product10} nome='MACACÃO ELEONOR' preco='R$ 635,00' />
                             </div>
                             
                        </div>
