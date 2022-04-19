@@ -9,10 +9,10 @@ const Header =  ( ) => {
 
         <div className="flex w-full h-auto flex-col">
 
-            <div className='flex flex-row justify-center items-center w-full h-9 bg-black text-white'>
+            <div className='flex flex-row justify-center items-center w-full h-[35px] bg-black text-white'>
                 <div className='flex justify-center items-center w-[80%]  md:flex-row  md:justify-between'>
-                    <div className='hidden md:flex md:w-2/4  justify-start text-sm text-white '>Seja do clube outcast e ganhe     <strong> &nbsp; DESCONTO EXCLUSIVO</strong></div>
-                    <div className='flex md:w-2/4 justify-center sm:items-center md:justify-end text-[12px] md:text-sm text-white'>Em compras a partir de R$ 250,00 ganhe    <strong> &nbsp; FRETE GRÁTIS</strong></div>
+                    <div className='hidden md:flex md:w-2/4  justify-start text-[10px] text-sm text-white '>Seja do clube outcast e ganhe     <strong> &nbsp; DESCONTO EXCLUSIVO</strong></div>
+                    <div className='flex md:w-2/4 justify-center sm:items-center md:justify-end text-[12px] text-[10px] sm:text-sm  text-white'>Em compras a partir de R$ 250,00 ganhe    <strong> &nbsp; FRETE GRÁTIS</strong></div>
                 </div>
             </div>
          {/* Menu white */}
