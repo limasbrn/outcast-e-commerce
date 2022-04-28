@@ -19,6 +19,7 @@ const Footer =  ( ) => {
                  </div>
             </section>
             
+            {/* Footer desktop */}
             <section className='hidden sm:flex w-full h-[120px] bg-black text-white items-center'>
                 <div className='flex w-1/4 justify-center '>
                     <ul  className='text-sm pl-[40px]'>
@@ -38,13 +39,13 @@ const Footer =  ( ) => {
 
                 {/* Aqui por as imagens */}
              <div className='flex w-1/4 h-full'>
-                    <img className='w-[25px] h-auto mr-[40px] ml-[40px]' src={PintIcon}/>
-                    <img className='w-[25px] h-auto mr-[40px]' src={FaceIcon}/>
-                    <img className='w-[25px] h-auto' src={InstaIcon}/>
+                    <img className='w-[20px] md:w-[25px] h-auto mr-[20px] md:mr-[30px] lg:mr-[40px] ml-[40px]' src={PintIcon}/>
+                    <img className='w-[20px] md:w-[25px] h-auto mr-[20px] md:mr-[30px] lg:mr-[40px]' src={FaceIcon}/>
+                    <img className='w-[20px] md:w-[25px] h-auto' src={InstaIcon}/>
                 </div>
 
                 <div>
-                    <span className='flex w-1/4 tracking-[20px] text-center'>OUTCAST</span>
+                    <span className='flex w-1/4 tracking-[10px] md:tracking-[20px] text-center'>OUTCAST</span>
                 </div>
             </section>
         </>

@@ -11,7 +11,7 @@ import { Link } from 'react-router-dom';
 const ProducDisplay =  ( ) => {
     return(
         <>
-            <div className="flex flex-col justify-center items-center w-full h-[300px] mt-[30px]">
+            <div className="flex flex-col justify-center items-center w-full h-auto mt-[30px]">
                 <div className="flex w-[80%] h-[20%]">
                     <h2 className="flex flex-col justify-center items-center font-semibold">Destaques do momento</h2>
                 </div>
@@ -22,7 +22,7 @@ const ProducDisplay =  ( ) => {
                     <ProductDisplay foto= {Product2} nome='VESTIDO NADIA' preco='R$ 275,00' />
                     <ProductDisplay foto= {Product5} nome='VESTIDO STRIPES' preco='R$ 535,00'/>
                 </div>
-                <div className="flex md:hidden w-full h-auto bg-white justify-around mt-[15px]">
+                <div className="flex flex-wrap md:hidden w-full h-auto bg-white justify-around mt-[15px]">
                     <ProductDisplay foto= {Product4} nome='BLAZER MADDIE' preco='R$ 425,00' />
                     <ProductDisplay foto= {Product1} nome='VESTIDO CLAIRE' preco='R$ 435,00' />
                     <ProductDisplay foto= {Product3} nome='MACACÃO BROOK' preco='R$ 580,00' />

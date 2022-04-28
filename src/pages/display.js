@@ -21,7 +21,7 @@ const ProductDisplayPage = () => {
         <div className="flex md:hidden w-full h-[50px] self-center justify-end">
           <SelectDisplay />
         </div>
-        <div className="hidden md:flex sm:w-[170px] md:h-[300px] flex-col border border-[1px] border-[#DADADA] rounded-[5px]">
+        <div className="hidden md:flex sm:w-[170px] md:h-[300px] flex-col border border-[1px] border-[#DADADA] rounded-[5px] md:mt-[5px]">
           <ul className="flex flex-col text-[11px] p-[15px]">
             <li className="flex font-bold text-[12px]">CATEGORIAS</li>
             <li className="mt-[5px] hover:font-bold text-[12px]">VESTIDOS</li>

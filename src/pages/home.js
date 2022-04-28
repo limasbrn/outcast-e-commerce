@@ -14,13 +14,7 @@ const Home =  ( ) => {
     <section>
 
       <div className='flex flex-col w-full items-center'>
-          <div className='flex justify-center w-full '>
-            {/*  <div className='flex w-4/5'>
-               <span className='flex font-semibold text-sm text-[#868686] mt-[15px] mb-[30px]'> Home</span>
-             </div> */}
-          </div>
-
-            {/*div da imagem principal*/}
+          
           <div className='flex justify-center items-center  w-full h-auto md:w-4/5 md:h-[420px] mt-[30px]'>
             <div className="flex w-3/5 h-full justify-center "> <Link to="/produtos"><img className="flex h-full w-auto" src={Fotoprincipal}/></Link></div>
           </div>
