@@ -20,6 +20,7 @@ const ProductDisplayPage = () => {
       <div className="flex flex-col md:flex-row w-full h-auto md:h-auto md:justify-center md:self-center">
         <div className="flex md:hidden w-full h-[50px] self-center justify-end">
           <SelectDisplay />
+          <SelectDisplay />
         </div>
         <div className="hidden md:flex sm:w-[170px] md:h-[300px] flex-col border border-[1px] border-[#DADADA] rounded-[5px]">
           <ul className="flex flex-col text-[11px] p-[15px]">
