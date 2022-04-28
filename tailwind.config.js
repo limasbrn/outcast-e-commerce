@@ -1,29 +1,26 @@
 module.exports = {
-  content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
-  ],
+  content: ["./public/index.html", "./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend:{
-      margin:{
-        '-20px':'-20px',
-        '-35px':'-35px',
+    extend: {
+      margin: {
+        "-20px": "-20px",
+        "-35px": "-35px",
       },
       height: {
-        '550': '550px',
-      }
+        550: "550px",
+      },
     },
     letterSpacing: {
-      wider: '20px',
-      widest: '35px'
+      wider: "20px",
+      widest: "35px",
     },
     fontSize: {
-      'xs': '8px',
-      'sm': '12px',
-      'base': '1rem',
-      'lg': '1.125rem',
-      'xl': '1.25rem'
-    }
-      
+      xs: "8px",
+      sm: "12px",
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+    },
   },
-  plugins: []
-}
+  plugins: [],
+};

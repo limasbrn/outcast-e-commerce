@@ -14,7 +14,7 @@ function ProductWrap(props) {
     }
 
     return(
-            <div className="flex flex-col w-[18%] h-full border  border-[1px] border-[#DADADA] rounded-[5px] hover:border-black">
+            <div className="flex flex-col w-[170px] h-[230px] border  border-[1px] border-[#DADADA] m-[5px] rounded-[5px] hover:border-black">
                 <div className="flex justify-end p-[5px]">
                     <img id="heartIcon" className="w-[17px] h-auto cursor-pointer" src={isFavorite ? HeartIconTwo : HeartIcon} onClick={handleFavorite}/>
                 </div>

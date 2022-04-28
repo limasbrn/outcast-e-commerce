@@ -12,10 +12,10 @@ function CarrinhoPage() {
         <section>
                <HomeLink page='Sacola'/>
                <PageTitle h1='SACOLA'/> 
-               <div className="flex w-full h-[300px] justify-center">
-                   <div className="flex w-4/5 h-[320px] justify-center p-[15px] border-[1px] b-black">
-                       <div className="flex flex-col justify-between items-center w-2/6 h-full">
-                           <div className="flex w-5/6 h-[135px] bg-white ronded-[5px]">
+               <div className="flex w-full h-[600px] md:h-[300px] justify-center">
+                   <div className="flex flex-wrap w-[80%] md:w-4/5 h-auto md:h-[320px] justify-center p-[15px] border-[1px] b-black">
+                       <div className="flex flex-col justify-between items-center w-full md:w-3/6 lg:w-2/6 h-auto md:h-full">
+                           <div className="flex w-[90%] sm:w-[80%] md:w-5/6 h-[135px] bg-white ronded-[5px]">
                                 <div className="flex w-[120px] h-full justify-left items-center">
                                    <img className="flex h-full w-auto" src={Destaque2}/>
                                 </div>
@@ -29,7 +29,7 @@ function CarrinhoPage() {
                                    <div className="flex font-semibold justify-end items-end w-[95%] h-[70px]">R$ 279,00</div>
                                 </div>
                            </div>
-                           <div className="flex w-5/6 h-[135px] bg-white ronded-[5px]">
+                           <div className="flex w-[90%] sm:w-[80%] md:w-5/6 h-[135px] bg-white ronded-[5px]">
                                 <div className="flex w-[120px] h-full justify-left items-center">
                                    <img className="flex h-full w-auto" src={Destaque1}/>
                                 </div>
@@ -44,7 +44,7 @@ function CarrinhoPage() {
                                 </div>
                            </div>
                        </div>
-                       <div className="flex w-[310px] h-full rounded-[5px] justify-center items-center bg-gray-100">
+                       <div className="flex w-[310px] md:w-3/6 lg:w-[310px] h-auto mt-[15px] md:mt-[0px] md:h-full rounded-[5px] justify-center items-center bg-gray-100">
                            <div className="flex flex-col w-5/6 h-5/6 justify-center">
                                <h1 className="font-semibold mb-[10px] px-[10px]">TOTAL:</h1>
                                <h1 className="font-semibold mb-[15px] px-[10px]">R$ 535,00</h1>
