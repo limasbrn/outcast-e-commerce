@@ -1,13 +1,21 @@
-import React from 'react' ;
+import React, { useState } from 'react' ;
 import { Link } from 'react-router-dom';
 import UserIcon from '../icones/user-icon.svg';
 import BagIcon from '../icones/bag-icon.svg';
 import HamIcon from '../icones/hamburguer-icon.svg';
+import ModalMenu from '../components/menu-modal';
 
-const Header =  ( ) => {
+function Header() {
+
+    const [isOpen, setOpen] = useState(false);
+
+    const handleOpenMod = () => {
+      setOpen((state) => !state);
+    };
+
     return(
 
-        <div className="flex w-full h-auto flex-col">
+        <div className="relative flex w-full h-auto flex-col">
 
             <div className='flex flex-row justify-center items-center w-full h-[35px] bg-black text-white'>
                 <div className='flex justify-center items-center w-[80%]  md:flex-row  md:justify-between'>
@@ -22,7 +30,7 @@ const Header =  ( ) => {
 
                     <div className='flex w-1/5 justify-center items-center' >
                         <div>
-                            <img className=" md:hidden" src={HamIcon}/>
+                            <img className=" md:hidden" src={HamIcon} onClick={handleOpenMod}/>
                         </div>
                     </div>
                     
@@ -59,6 +67,8 @@ const Header =  ( ) => {
                 </div>
 
             </div>
+
+            <ModalMenu state={isOpen} handleActive={handleOpenMod}/>
             
         </div>
     )

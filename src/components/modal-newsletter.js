@@ -6,7 +6,7 @@ function ModalNews(props) {
   return (
     state && (
       <div className="flex absolute bottom-[10px] left-0 h-[100%] w-[100%] justify-center items-center">
-        <div className="flex h-[250px] w-[350px] bg-white justify-center items-center rounded-[5px] border-[#DADADA] border-[1px] ">
+        <div className="flex h-[250px] w-[350px] bg-white justify-center items-center rounded-[5px] border-[#DADADA] border-[1px]">
           <div className="flex flex-col h-[90%] w-[90%] justify-center items-center">
             {/* <h1 className="flex font-bold mb-[30px]">
              </h1> */}
