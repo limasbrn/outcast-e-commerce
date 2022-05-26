@@ -4,6 +4,6 @@
 
 Outcast é uma loja online de moda feminina.
 
-Aplicação feita para fins de prática. Projeto componentizado elaborado em React Jse estilizado com Tailwind.
+Aplicação feita para fins de prática. Projeto componentizado elaborado em React Js e estilizado com Tailwind.
 
 Imagens disponibilizadas no site Unsplash. Autoria das fotos: Naeim Jafari.
