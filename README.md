@@ -13,8 +13,8 @@ Outcast é uma loja online de moda feminina. A Aplicação foi desenvolvida para
 
 ## Tecnologias utilizadas
 
-* React Js;
-* Tailwind;
+* React Js ;
+* Tailwind ;
 
 ## Setup
 
