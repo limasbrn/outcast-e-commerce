@@ -4,7 +4,17 @@
 
 ## Informações gerais
 
-Outcast é uma loja online de moda feminina. A Aplicação foi desenvolvida para fins de prática e foi elaboram em React Js e estilizada com Tailwind.
+Outcast é uma loja online de moda feminina. A Aplicação foi desenvolvida para fins de prática e foi elaboram em React Js e estilizada com Tailwind. 
+
+A aplicação possui:
+* Página inicial;
+* Página Vitríne para expor o produto;
+* Página Carrinho;
+* Página de Login;
+* Página de cadastro;
+* Página de display de produtos; 
+* 
+A aplicação é responsiva se adequando a todos os tamanhos de dispositivo, possui modais para uma melhor user experience dando feedback em todas as ações com as páginas.
 
 ## Recursos
 
