@@ -14,7 +14,7 @@ A aplicação possui:
 * Página de cadastro;
 * Página de display de produtos; 
 
-A aplicação é responsiva se adequando a todos os tamanhos de dispositivo, possui modais para uma melhor user experience dando feedback em todas as ações com as páginas.
+A aplicação é responsiva se adequando a todos os tamanhos de dispositivo e também possui modais para uma melhor user experience dando feedback em todas as ações com as páginas.
 
 ## Recursos
 
