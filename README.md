@@ -28,7 +28,7 @@ A aplicação é responsiva se adequando a todos os tamanhos de dispositivo e ta
 
 ## Setup
 
-Para a visualização da aplicação é necessário:
+Para a visualização da aplicação é necessário seguir os seguintes passos:
 
 * Clonar o repositório usando o HTTP ou usando uma chave SSH;
 * Abrir o Git Bash;
